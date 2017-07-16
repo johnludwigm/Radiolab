@@ -43,8 +43,8 @@ class PageofEpisodes:
   def getepisodes(self):
     self.contents = (self.soup).find_all("div", {"class": "series-item"})
 
-#parentdir = INSERT ABSOLUTE PATH TO THE PARENT FOLDER OF WHERE YOU WANT TO SAVE THE FILES
-#downloadfolder is the folder you want all the episodes to be stored in.
+parentdir = ''
+
 def main(downloadfolder):
   reqobj = requests.get(r"http://www.radiolab.org/series/podcasts/9999999")
 
