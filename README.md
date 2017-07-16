@@ -6,6 +6,6 @@ If you find any errors or have any suggestions for improvement, please let me kn
 
 To use, simply run:
 
->>> import radiolab
->>> radiolab.parentdir = '/Users/YOU/Desktop' #<- example for Unix. You can pick wherever you want.
->>> radiolab.main("Radiolab") #creates a directory /Users/YOU/Desktop/Radiolab where the episodes will be saved.
+\>>> import radiolab
+\>>> radiolab.parentdir = '/Users/YOU/Desktop' #<- example for Unix. You can pick wherever you want.
+\>>> radiolab.main("Radiolab") #creates a directory /Users/YOU/Desktop/Radiolab where the episodes will be saved.
