@@ -4,6 +4,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+regex = re.compile(r"(https://www\.podtrac\.com/pts/redirect\.mp3/audio\.wnyc\.org/[/_a-zA-z0-9]+.mp3)")
+
 def createdir(directory):
   if not os.path.exists(directory):
     os.mkdir(directory)
@@ -53,8 +55,6 @@ def main(downloadfolder):
 
   currentsoup = BeautifulSoup(reqobj.text, "html.parser")
   current = int(currentsoup.find("span", {"class", "pagefooter-current"}).get_text().strip())
-  
-  regex = re.compile(r"(https://www\.podtrac\.com/pts/redirect\.mp3/audio\.wnyc\.org/[/_a-zA-z0-9]+.mp3)")
 
   while current > 0:
     page = PageofEpisodes("http://www.radiolab.org/series/podcasts/{}/".format(current))
