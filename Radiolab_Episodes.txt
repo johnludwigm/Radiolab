@@ -275,5 +275,5 @@
 	"Worth": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab122314.mp3",
 	"Yellow Fluff and Other Curious Encounters": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab121208.mp3",
 	"Zoos": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab060107pod.mp3",
-	"\u2264 kg": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast14_kg.mp3"
+	"<= kg": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast14_kg.mp3"
 }
