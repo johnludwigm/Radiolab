@@ -13,3 +13,9 @@ To use, simply run:
 
 
 \>>> radiolab.main("Radiolab") #creates a directory /Users/YOU/Desktop/Radiolab where the episodes will be saved.
+
+
+
+Even for episodes with weird titles, (e.g. "12: Proof" "(So-Called) Life") you have to enter the exact title name in order to download that specific episode.
+
+
