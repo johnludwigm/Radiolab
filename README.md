@@ -16,6 +16,6 @@ To use, simply run:
 
 
 
-Even for episodes with weird titles, (e.g. "12: Proof" "(So-Called) Life") you have to enter the exact title name in order to download that specific episode.
+Even for episodes with weird titles, (e.g. "12: Proof", "(So-Called) Life") you have to enter the exact title name in order to download that specific episode.
 
 
