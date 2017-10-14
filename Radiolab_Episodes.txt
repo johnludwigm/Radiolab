@@ -252,6 +252,7 @@
 	"This is Your Brain On Love": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab082807pod.mp3",
 	"Time": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab042407pod.mp3",
 	"Translation": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab/radiolab102114.mp3",
+	"Truth Trolls": "https://s1.vocaroo.com/media/download_temp/Vocaroo_s1sIYbb3CkZz.mp3",
 	"Truth Warriors": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast17truthwarriors.mp3",
 	"UPDATE: Famous Tumors": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast13updatetumors.mp3",
 	"Unraveling Bolero": "https://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast12bolero.mp3",
