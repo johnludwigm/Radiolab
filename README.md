@@ -6,9 +6,14 @@ Downloads episodes of Radiolab from radiolab.org.
 
 If you find any errors or have any suggestions for improvement, please let me know!
 
-To use, simply run:
+To download specific episodes, simply run:
 
  `python3 -m radiolab -dl <Episodes-that-you-want-to-download> -dest <path-to-download-destination>`
+ 
+ 
+To download all episodes, run:
+
+`python3 -m radiolab -dlall -dest <path-to-download-destination>`
 
 
 ---
