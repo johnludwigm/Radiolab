@@ -83,13 +83,18 @@ def main(args = None):
     return
   
   cli = parse(argv)
-  if "destination" in cli:
-    try:
-      os.chdir(cli["destination"])
-    except Exception as exc:
-      print("Unable to change directories:\n%s" % exc)
+  
+  try:
+    os.chdir(cli["destination"])
+  except KeyError:
+    #in which case the user did not specify a destination
+    pass
+  except Exception as exc:
+    print("Unable to change directories:\n%s" % exc)
+  
   if cli["downloadall"]:
     downloadall()
+   
   elif "download" in cli:
     episode_to_url = fromgithub()
     for episode in cli["download"]:
@@ -97,6 +102,3 @@ def main(args = None):
     
 if __name__ == "__main__":
   main()
-
-
-
