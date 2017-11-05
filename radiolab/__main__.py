@@ -68,7 +68,7 @@ def generatemd(outputfilename):
   if not outputfilename.endswith(".md"):
     outputfilename = outputfilename + ".md"
 
-  with open(outputfilename, "w") as fileobj:
+  with open(outputfilename, "w", encoding = "utf-8") as fileobj:
     for page in radiolabpages():
       page.getepisodes()
       for episode in page.contents:
