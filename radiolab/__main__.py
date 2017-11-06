@@ -53,7 +53,6 @@ def generatejson(outputfilename):
 
   episode_to_url = {}
   for page in radiolabpages():
-    print(page.url)
     page.getepisodes()
     for item in page.contents:
       episode = Episode(item)
