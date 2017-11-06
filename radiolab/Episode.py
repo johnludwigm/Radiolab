@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import re
 downloadreg = re.compile(r"(https://www\.podtrac\.com/pts/redirect\.mp3/audio\.wnyc\.org/[/_\w\d]+.mp3)")
 
-#There was a weird problem with with filenames: Some saved as "?     <episode-name>.mp3"
+#There was a weird problem with filenames - some filenames randomly saved as "?     <episode-name>.mp3"
 def downloadmp3(filename, sourceurl):
   with open("%s.mp3" % filename.replace("?", "").strip(), "wb") as fileobj:
     fileobj.write(requests.get(sourceurl).content)
