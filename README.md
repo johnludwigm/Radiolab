@@ -31,6 +31,6 @@ Bear in mind that if any string has a space in it (e.g. `"The Ceremony"`), then 
 
 
 
-Even for episodes with weird titles, (e.g. "12: Proof", "(So-Called) Life") you have to enter the exact title name in order to download that specific episode. The exception is when there is a character that is not UTF-8 (e.g. "≤ kg"). I changed those to the intuitive substitute (in this case, "<= kg").
+Even for episodes with weird titles, (e.g. "12: Proof", "(So-Called) Life") you have to enter the exact title name in order to download that specific episode. The exception is when there is a character that is not UTF-8 (e.g. "≤ kg"). I changed those to the intuitive substitutes (in this case, "<= kg").
 
 
